@@ -1,0 +1,47 @@
+﻿body {margin:0;
+      background-color:#1B244A;    
+}
+
+.container{display:flex;
+           justify-content:space-around;
+}
+
+#homeSheet, #guestSheet{background-color:#080001;
+       border: hidden;
+       width:155px;
+       height:120px;
+       border-radius: 5px;
+       color:#F94F6D;
+       text-align:center;
+       font-family:Cursed Timer ULiL;
+       font-size: 90px;
+       line-height: 126.67px;
+       margin:0px;
+}
+
+@font-face {
+  font-family:Cursed Timer ULiL;
+  src: url(CursedTimerULiL.woff) format('woff'),
+      url(CursedTimerULiL.ttf) format('ttf'),
+      url(CursedTimerULiL.eot) format('eot'),
+      url(CursedTimerULiL.svg) format('svg');
+}
+h3 {font-family: verdana;
+    font-style: bold;
+    font-size: 40px;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+button{background-color:#1B244A;
+       margin:20px 2px;
+       height:45px;
+       width:45px;
+       border-radius: 5px;
+       border-color: #9AABD8;
+       border-style: solid;
+       font-family: Cursed Timer ULiL;
+       font-size: 18px;
+       line-height: 27.81px;
+       color: #9AABD8;
+}
